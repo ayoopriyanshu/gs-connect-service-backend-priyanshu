@@ -3,6 +3,8 @@ import { LoggerMiddleware } from './logger';
 import { ChatModule } from './chat/chat.module';
 import { RedisModule } from './redis';
 import { ConfigModule } from '@nestjs/config';
+import { AuthService } from './auth.service';
+import { AuthController } from './auth.controller';
 
 
 @Module({
